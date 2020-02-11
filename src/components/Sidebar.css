@@ -1,0 +1,64 @@
+/* .multi-level, .item ul, .nav input[type='checkbox'] {
+  display:none
+}
+
+/* #menu:checked ~ .multi-level, .item input:checked ~ ul { */
+/* .multi-level, .item input:checked ~ ul {
+  display: block;
+}  */
+
+/* .arrow{
+  width: 12px;
+  height: 12px;
+  vertical-align:middle;
+  float: left;
+  z-index: 0;
+  margin: 17px 1em 0 2em;
+} */
+
+label:hover{
+    cursor: pointer;
+  }
+  label{
+    width: 100%;
+    display: block;
+    z-index: 3;
+    position: relative;
+  }
+  
+  .nav{
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  #nav-icon{
+    font-size: 28px;
+    line-height: 50px;
+    padding-left: 1em;
+ 
+  }
+  
+  .nav ul, .nav li, label{
+    line-height: 50px;
+    margin: 0;
+    padding:  0 1em;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+  .item ul {
+    padding: 0 0 .25em;
+  }
+  
+  .nav li a {
+    line-height: 40px;
+    margin: 0;
+    padding:  0 2em;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
